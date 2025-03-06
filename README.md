@@ -308,7 +308,7 @@ def execute(name="World", times=1):
 #### Can I use the application with remote APIs?
 Yes, you can modify the `.env` file to use OpenAI or other API-based models instead of Ollama. You'll need to update the configuration and potentially modify the agent setup in `ProgramExecutionAgents.py`.
 
-## 🛣️ Future Roadmap [not in near future :)]
+## 🛣️ Future Roadmap [ not in near future 😊 ]
 
 Future enhancements planned for the Python Program Execution Assistant:
 
