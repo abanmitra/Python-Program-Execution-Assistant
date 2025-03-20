@@ -45,7 +45,9 @@ class ProgramExecutionAgents:
         self.llm = LiteLLMWrapper(
             model_name=os.getenv("OLLAMA_MODEL", "ollama/llama3").strip(),
             model_url=os.getenv("OLLAMA_BASE_URL", "http://localhost:11434").strip(),
-            temperature=float(os.getenv("OLLAMA_TEMPERATURE", 0.7))
+            temperature=float(os.getenv("OLLAMA_TEMPERATURE", 0.7)),
+            max_token=8192,
+            num_ctx=8192
         )        
 
     def program_execution_agent(self):
