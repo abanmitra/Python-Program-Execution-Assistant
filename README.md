@@ -195,6 +195,9 @@ You can customize the application by modifying the following environment variabl
 | `OLLAMA_TEMPERATURE` | Temperature setting for the AI model (higher = more creative) | `0.8` |
 | `DEFAULT_PROGRAMS_DIRECTORY` | Default directory to search for Python programs | - |
 
+**Reference**: [Custom Ollama Model Creation](https://www.gpu-mart.com/blog/custom-llm-models-with-ollama-modelfile)
+
+
 ### Adding Custom Tools
 
 To extend the application with custom tools:
@@ -330,7 +333,6 @@ For questions, support, or feedback, please contact:
 
 - Email: difworksaban@gmail.com
 - GitHub: [Python Program Execution Assistant](https://github.com/abanmitra/Python-Program-Execution-Assistant)
-
 
 ---
 
